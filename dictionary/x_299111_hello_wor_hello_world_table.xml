@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Hello world Table" max_length="40" name="x_299111_hello_wor_hello_world_table" type="collection"/>
+    <element label="Hello world Table" max_length="40" name="x_299111_hello_wor_hello_world_table" type="collection">
+        <element label="description" max_length="255" name="description" type="string"/>
+        <element label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_2" type="glide_list"/>
+    </element>
 </database>
